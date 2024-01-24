@@ -1,9 +1,9 @@
 // import LocomotiveScroll from 'locomotive-scroll';
 
-// const scroll = new LocomotiveScroll({
-//     el: document.querySelector('#main'),
-//     smooth: true
-// });
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('#main'),
+    smooth: true
+});
 function page4Animation() {
     var elemC = document.querySelector("#elem-container");
     var fixed = document.querySelector("#fixed-image");
